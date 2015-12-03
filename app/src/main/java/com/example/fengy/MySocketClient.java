@@ -20,7 +20,7 @@ public class MySocketClient {
 
             OutputStream os = socket.getOutputStream();
             PrintWriter ps = new PrintWriter(os);
-            ps.write("测试传输数据~");
+            ps.write("I am Client 2 ..");
             ps.flush();
             socket.shutdownOutput();
 
